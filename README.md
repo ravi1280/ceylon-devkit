@@ -141,5 +141,7 @@ const invoiceDueDate = addWorkingDays(new Date(), 14);
 
 ## 📄 License
 
-MIT License © 2026. Made with ❤️ in Sri Lanka.
+MIT License © 2026 Ravishka Indraji.
+
+Built for developers, inspired by Sri Lanka 🇱🇰
 
