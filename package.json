@@ -1,6 +1,6 @@
 {
   "name": "ceylon-devkit",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "CeylonDevKit - The ultimate Sri Lankan developer toolkit: LKR currency to words, Bank & Branch codes, TIN & VAT validator with Tax calculator, and CBSL working days calculator.",
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",
