@@ -1,0 +1,46 @@
+{
+  "name": "ceylon-devkit",
+  "version": "1.0.0",
+  "description": "CeylonDevKit - The ultimate Sri Lankan developer toolkit: LKR currency to words, Bank & Branch codes, TIN & VAT validator with Tax calculator, and CBSL working days calculator.",
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/index.mjs",
+      "require": "./dist/index.js",
+      "types": "./dist/index.d.ts"
+    }
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsup src/index.ts --format cjs,esm --dts --clean",
+    "dev": "tsup src/index.ts --format cjs,esm --dts --watch",
+    "demo": "npx tsx demo.ts",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "prepublishOnly": "npm run test && npm run build"
+  },
+  "keywords": [
+    "ceylon",
+    "ceylon-devkit",
+    "sri-lanka",
+    "lka",
+    "lkr",
+    "currency-to-words",
+    "bank-codes",
+    "tin-validator",
+    "vat-calculator",
+    "cbsl-holidays",
+    "working-days"
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "tsup": "^8.0.2",
+    "typescript": "^5.4.5",
+    "vitest": "^1.6.0"
+  }
+}
